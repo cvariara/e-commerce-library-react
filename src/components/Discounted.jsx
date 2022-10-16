@@ -1,8 +1,8 @@
 import React from "react";
-import Book from "./Book";
+import Book from "./ui/Book";
 import { books } from "../data";
 
-const Features = () => {
+const Discounted = () => {
   return (
     <section id="recent">
       <div className="container">
@@ -25,4 +25,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Discounted;
